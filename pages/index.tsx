@@ -1,8 +1,6 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import { useState, useMemo } from "react";
 import { useWeb3 } from "@3rdweb/hooks";
-import { ThirdwebSDK } from "@3rdweb/sdk";
 import Connect from "../components/Connect";
 import Mint from "../components/Mint";
 
